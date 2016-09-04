@@ -1,0 +1,20 @@
+main: com.panjaco.healandfeed.HealAndFeed
+version: 2.0.0
+name: Heal and Feed
+
+commands:
+  heal:
+    description: Heal a target player, or yourself
+    usage: /heal <target>
+  feed:
+    description: Feed a target player, or yourself
+    usage: /feed <target>
+  healall:
+    description: Heal all of the players on the server
+    usage: /healall
+  feedall:
+    description: Feed all of the players on the server
+    usage: /feedall
+  nohunger:
+    description: Never loose hunger
+    usage: /nohunger <target>
